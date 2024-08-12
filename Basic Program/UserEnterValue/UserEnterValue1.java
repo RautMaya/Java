@@ -1,0 +1,14 @@
+
+import java.util.Scanner;
+class UserEnterValue1
+{
+public static void main(String[] args)
+{
+Scanner scan=new Scanner(System.in);
+System.out.println("Enter Some Text");
+String num=scan.nextLine();
+
+System.out.println("You Enter Text is");
+System.out.print(num);
+}
+}
